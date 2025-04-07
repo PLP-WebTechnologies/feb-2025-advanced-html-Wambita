@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Advanced HTML5 Elements</title>
+</head>
+<body>
+
+  <!-- Header Section -->
+  <header>
+    <h1>Welcome to the Advanced HTML5 Page</h1>
+  </header>
+
+  <!-- Ordered List with Roman Numerals -->
+  <section>
+    <h2>Top Priorities</h2>
+    <ol type="I">
+      <li>Learn HTML5 elements</li>
+      <li>Practice creating forms</li>
+      <li>Understand semantic structure</li>
+    </ol>
+  </section>
+
+  <!-- External Image from Pexels -->
+  <section>
+    <h2>Beautiful Nature</h2>
+    <img src="https://images.pexels.com/photos/417173/pexels-photo-417173.jpeg" alt="A scenic mountain view" width="500">
+  </section>
+
+  <!-- Contact Table -->
+  <section>
+    <h2>Contact List</h2>
+    <table border="1" cellpadding="8">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Address</th>
+          <th>Mobile</th>
+          <th>Email</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Alice Kim</td>
+          <td>Nakuru</td>
+          <td>123456789</td>
+          <td>alice@gmail.com</td>
+        </tr>
+        <tr>
+          <td>Bob Lee</td>
+          <td>Kisii</td>
+          <td>987654321</td>
+          <td>bob@gmail.com</td>
+        </tr>
+        <tr>
+          <td>Carla Wang</td>
+          <td>Kisumu</td>
+          <td>1122334455</td>
+          <td>carla@gmail.com</td>
+        </tr>
+        <tr>
+          <td>David M.</td>
+          <td>Nairobi</td>
+          <td>9988776655</td>
+          <td>david@gmail.com</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <!-- Registration Form -->
+  <section>
+    <h2>Register Here</h2>
+    <form action="#" method="post">
+      <!-- Name Field -->
+      <label for="name">Full Name:</label><br>
+      <input type="text" id="name" name="name" placeholder="Enter your full name" required><br><br>
+
+      <!-- Email Field -->
+      <label for="email">Email:</label><br>
+      <input type="email" id="email" name="email" placeholder="example@mail.com" required><br><br>
+
+      <!-- Password Field -->
+      <label for="password">Password:</label><br>
+      <input type="password" id="password" name="password" placeholder="Choose a strong password" minlength="6" required><br><br>
+
+      <!-- Date Field -->
+      <label for="dob">Date of Birth:</label><br>
+      <input type="date" id="dob" name="dob" required><br><br>
+
+      <!-- Dropdown -->
+      <label for="country">Country:</label><br>
+      <select id="country" name="country" required>
+        <option value="">Select your country</option>
+        <option value="kenya">Kenya</option>
+        <option value="nigeria">Nigeria</option>
+        <option value="usa">USA</option>
+      </select><br><br>
+
+      <!-- Radio Buttons -->
+      <p>Gender:</p>
+      <input type="radio" id="male" name="gender" value="male" required>
+      <label for="male">Male</label><br>
+      <input type="radio" id="female" name="gender" value="female">
+      <label for="female">Female</label><br><br>
+
+      <!-- Checkboxes -->
+      <p>Skills:</p>
+      <input type="checkbox" id="html" name="skills" value="HTML">
+      <label for="html">HTML</label><br>
+      <input type="checkbox" id="css" name="skills" value="CSS">
+      <label for="css">CSS</label><br>
+      <input type="checkbox" id="js" name="skills" value="JavaScript">
+      <label for="js">JavaScript</label><br><br>
+
+      <!-- Submit Button -->
+      <button type="submit">Register</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Advanced HTML5 Page. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
